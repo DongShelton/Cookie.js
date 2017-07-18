@@ -8,7 +8,7 @@ Cookies.createCookie(name, value);  //name 和 value 为字符串;
 ```
 * 获取一个 Cookie , 此方法返回制定键名的 Cookie 对象'
 ```javascript
-Cookies.getookie(name);  //name 为字符串;
+Cookies.getCookie(name);  //name 为字符串;
 ```
 * 设置 Cookie , 此方法设置一个 Cookie;
 ```javascript
