@@ -32,3 +32,9 @@ cookie.setPath(String);  //set the cookie's path, the parameter should be a stri
 
 cookie.setSecure(Boolean);  //set the cookie's secure;
 ```
+* 注意如果修改了 Cookie 属性需要重新设置;
+```javascript
+var cookie = Cookies.getCookie("myCookie");
+cookie.setValue("foo");
+Cookies.setCookie(cookie);
+```
